@@ -1,0 +1,28 @@
+{
+  "name": "aquaticdashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "filestream": "^5.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "ws/views/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AquaPlaysYT/Discord-FortniteBot"
+  },
+  "author": "Aquatic",
+  "license": "MIT",
+  "homepage": ""
+}
