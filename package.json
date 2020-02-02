@@ -14,10 +14,6 @@
   "scripts": {
     "start": "node main.js"
   },
-  "pkg": {
-    "scripts": "build/**/*.js",
-    "assets": "ws/views/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AquaPlaysYT/Discord-FortniteBot"
