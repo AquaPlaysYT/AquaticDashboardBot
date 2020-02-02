@@ -51,8 +51,17 @@ function userCheck(author) {
 }
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
+            console.log(`Logged in as ${client.user.tag}!`);
+
+            client.user.setPresence({
+                game: {
+                    name: 'Fortnite Bot Dashboard | Created By @AquaPlaysYT On Twitter',
+                    type: "PLAYING"
+                }
+            });
+            
+           
+        })
 
 client.on('message', msg => {
   if (msg.content === ',code') {
