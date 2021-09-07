@@ -79,4 +79,4 @@ client.on('message', msg => {
   }
 });
 
-client.login("NjE5NTczMDYyMjgyNTEwNDA3.XjdFjA.DTvENhh5p6Eei5JKl-ogv0DVk0s");
+client.login("discord-token");
